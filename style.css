@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #21222A;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    padding: 30px 25px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav > img {
+    width: 55px;
+    margin-right: 15px;
+}
+
+nav > span{
+    color: #61DAFB;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main {
+    color: aliceblue;
+    padding: 60px 30px;
+}
+
+main > h1{
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+.facts-list{
+    margin-top: 36px;
+}
+
+.facts-list > li{
+    margin-block: 20px;
+}
+
+.facts-list > li::marker{
+    color: #61DAFB;
+    font-size: 1.8rem;
+}
